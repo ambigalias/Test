@@ -9,14 +9,10 @@
 ^showads.js^$script,domain=rarbgway.org
 
 ! sxyprn.com
-sxyprn.com##^head > script:not([src="/js/jq36.js"])
-sxyprn.com##^.tbd
-sxyprn.com##^.cbd
-sxyprn.com##^.fbd
-sxyprn.com##^div[style="width:800px;max-width:100%;margin:0 auto;"]
-sxyprn.com##^body > script:not([src])
-sxyprn.com##^script:has-text(/start_ypsp|vast_urls/)
-||sxyprn.com/player/p12.js^$1p,script
+sxyprn.com##^head > script:nth-of-type(n + 2)
+sxyprn.com##^body > script:not([src^="/js/"])
+sxyprn.com##^#wrapper_div script:not(.donate_modal.modal_window + script)
+sxyprn.com##^[class$="bd"]
 
 ! gamevn.com
 ||gamevn.com/js/gvn/mudim.js$script,1p
@@ -31,19 +27,19 @@ liquipedia.net##^head > script:nth-of-type(n + 4)
 ! 9gag.com
 ||notif.9gag.com^$1p
 ||recommend.9gag.com^$1p
+||9gag.com/sw.js$script,1p
 ^recommend.js^$script,domain=9gag.com
 9gag.com##^body > script:not(:last-of-type)
 
 ! tiki.vn
+||tiki.vn^$script,1p
 ||trackity.tiki.vn^$1p
-tiki.vn##^body > #portal ~ script:not(script#__NEXT_DATA__ ~ script)
-tiki.vn##^body > script:last-of-type
-tiki.vn##+js(aopr, trackity)
-||tiki.vn/third-party-cors-proxy^$xhr,1p
-||tiki.vn/~partytown^$1p
-||api.tiki.vn/aerith/v1/poll$xhr,1p
-||tiki.vn/api/spectrum/v4/enrolls$xhr,1p
 ||tka.tiki.vn^$1p
+||tiki.vn/third-party-cors-proxy^$xhr,1p
+||tiki.vn/api/spectrum/v4/enrolls$xhr,1p
 ||tiki.vn^$removeparam=trackity_id
-||tiki.vn^$removeparam=/source_/
 ||tiki.vn^$removeparam=/itm_/
+tiki.vn##^#__next > script
+tiki.vn##^body > script:last-of-type
+tiki.vn##^head > script
+tiki.vn##+js(aopr, trackity)
