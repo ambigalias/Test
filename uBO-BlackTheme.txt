@@ -1,4 +1,5 @@
 ! Title: Black theme
+! Homepage: https://github.com/ambigalias/Test
 
 ! gamevn.com
 ||gamevn.com/styles/default/xenforo/gradients^$image,1p
@@ -43,3 +44,18 @@ m.wiktionary.org##.overlay.search-overlay.visible:style(animation: none!importan
 m.wiktionary.org##.overlay.search-overlay .results:style(background-color: black!important)
 m.wiktionary.org##.page-summary h3:style(color: #ffece5!important)
 m.wiktionary.org##a:style(color: #ffb499!important)
+
+! liquipedia.net
+liquipedia.net##body:style(color: #ffece5!important)
+liquipedia.net##.main-container .main-content-column:style(background-color: black!important)
+liquipedia.net##.nav-tabs > li:style(background-color: black!important)
+liquipedia.net##.nav-tabs > li > a.mw-selflink.selflink:style(background-color: black!important)
+liquipedia.net##.nav-tabs > li.active > a:style(background-color: black!important)
+liquipedia.net##.toc:style(background-color: black!important)
+liquipedia.net##.wikitable:style(color: #ffece5!important)
+liquipedia.net##a:style(color: #ffece5!important)
+liquipedia.net##.wikitable > * > tr > th:style(background-color: black!important)
+liquipedia.net##.table:style(color: #ffece5!important; background-color: #463939!important)
+liquipedia.net##.brkts-matchlist-slot-winner:style(background-color: #2c872c!important)
+liquipedia.net##html.update-style .wiki-nav:style(background-color: black!important; border-bottom: none!important)
+liquipedia.net##:root:style(--wiki-color-light: #b12a2a!important; --clr-surface-1: #463939; --clr-surface-2: black; --publisher-premier-highlight-background-color: black; --prize-pool-background-color: black; --table-background-color: #463939; --clr-sun-background-color: #a28711; --clr-forestgreen-background-color: #2c872c; --clr-cinnabar-background-color: #9f1414; --table-red-background-color: #9f1414; --table-green-background-color: #2c872c; --table-header-variant-background-color: black; --table-variant-background-color: black)
