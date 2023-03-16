@@ -46,7 +46,10 @@ m.wiktionary.org##.page-summary h3:style(color: #ffece5!important)
 m.wiktionary.org##a:style(color: #ffb499!important)
 
 ! liquipedia.net
+liquipedia.net###dota2_320x50_SATF
 liquipedia.net##body:style(color: #ffece5!important)
+liquipedia.net##html body.logged-out.mobile-sticky-ad-is-active:style(padding-top: 3.125rem!important)
+liquipedia.net##html.update-style body.mobile-sticky-ad-is-active .main-nav:style(top: 0!important)
 liquipedia.net##.main-container .main-content-column:style(background-color: black!important)
 liquipedia.net##.nav-tabs > li:style(background-color: black!important)
 liquipedia.net##.nav-tabs > li > a.mw-selflink.selflink:style(background-color: black!important)
@@ -59,3 +62,7 @@ liquipedia.net##.table:style(color: #ffece5!important; background-color: #463939
 liquipedia.net##.brkts-matchlist-slot-winner:style(background-color: #2c872c!important)
 liquipedia.net##html.update-style .wiki-nav:style(background-color: black!important; border-bottom: none!important)
 liquipedia.net##:root:style(--wiki-color-light: #b12a2a!important; --clr-surface-1: #463939; --clr-surface-2: black; --publisher-premier-highlight-background-color: black; --prize-pool-background-color: black; --table-background-color: #463939; --clr-sun-background-color: #a28711; --clr-forestgreen-background-color: #2c872c; --clr-cinnabar-background-color: #9f1414; --table-red-background-color: #9f1414; --table-green-background-color: #2c872c; --table-header-variant-background-color: black; --table-variant-background-color: black)
+
+! www.vnshow.net
+www.vnshow.net##.collapse-transition:style(background: black!important)
+www.vnshow.net##body:style(--mainBackgroundColor: #000!important; --mainForegroundColor: #ffece5!important)
