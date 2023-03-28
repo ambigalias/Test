@@ -6,7 +6,7 @@
 gamevn.com##body:style(color: #fff4f2!important)
 gamevn.com##.messageText:style(font-size: 1rem!important; line-height: 1.5!important)
 gamevn.com##.bbCodeQuote blockquote:style(font-size: 11pt!important; background: black none!important)
-gamevn.com##.discussionListItem .title:style(line-height: 1.5!important; font-size: 1rem!important; margin-bottom: 8px)
+gamevn.com##.discussionListItem .title:style(line-height: 1.5!important; font-size: 1rem!important; padding-bottom: 4px)
 gamevn.com##.itemPageNav a:style(font-size: 9pt!important; padding: 0 4px!important)
 gamevn.com##.messageList .messageUserInfo:style(width: auto!important; border-right: none!important)
 gamevn.com###content .pageContent:style(background-color: black!important)
@@ -44,7 +44,7 @@ m.wiktionary.org##.overlay.search-overlay:style(background: black none!important
 m.wiktionary.org##.overlay.search-overlay.visible:style(animation: none!important)
 m.wiktionary.org##.overlay.search-overlay .results:style(background-color: black!important)
 m.wiktionary.org##.page-summary h3:style(color: #fff4f2!important)
-m.wiktionary.org##a:style(color: #ffbeb3!important)
+m.wiktionary.org##a:style(color: #ffb499!important)
 
 ! liquipedia.net
 liquipedia.net###dota2_320x50_SATF
