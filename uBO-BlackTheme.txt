@@ -6,7 +6,7 @@
 gamevn.com##body:style(color: #fff4f2!important)
 gamevn.com##.messageText:style(font-size: 1rem!important; line-height: 1.5!important)
 gamevn.com##.bbCodeQuote blockquote:style(font-size: 11pt!important; background: black none!important)
-gamevn.com##.discussionListItem .title:style(line-height: 1.5!important; font-size: 1rem!important; margin-bottom: 4px)
+gamevn.com##.discussionListItem .title:style(line-height: 1.5!important; font-size: 1rem!important; margin-bottom: 8px)
 gamevn.com##.itemPageNav a:style(font-size: 9pt!important; padding: 0 4px!important)
 gamevn.com##.messageList .messageUserInfo:style(width: auto!important; border-right: none!important)
 gamevn.com###content .pageContent:style(background-color: black!important)
@@ -18,8 +18,8 @@ gamevn.com##a:style(color: #fff4f2!important)
 gamevn.com##.bbCodeBlock .type:style(background: black none!important; color: #fff4f2 !important)
 gamevn.com##.breadcrumb:style(background: black none!important)
 gamevn.com##.breadcrumb .crust a.crumb:style(background-color: black!important)
-gamevn.com##.PageNav a:style(background-color: black!important; width: auto!important; min-width: 19px)
-gamevn.com##.PageNav a.currentPage:style(color: #ffa280!important)
+gamevn.com##.PageNav a:style(background-color: black!important)
+gamevn.com##.PageNav a.currentPage:style(color: #ff927f!important)
 gamevn.com##.node:style(background-color: black!important)
 gamevn.com##.node .nodeText:style(background-color: black!important; border-left: none!important; border-right: none!important)
 gamevn.com##.discussionListItem:style(background-color: black!important)
@@ -31,9 +31,6 @@ gamevn.com##.attachedFiles .attachedFilesHeader:style(color: #fff4f2!important; 
 gamevn.com##.attachedFiles .attachmentList:style(background: black none!important)
 gamevn.com##.attachment .boxModelFixer:style(background-color: black!important)
 gamevn.com##.sectionMain a:style(text-decoration: none!important)
-gamevn.com##.PageNav .scrollable:style(height: 24px!important; width: 162px!important)
-gamevn.com##.PageNav:style(font-size: 12px!important)
-gamevn.com##.PageNav .gt999:style(font-size: 12px!important; letter-spacing: normal!important)
 
 ! m.wiktionary.org
 m.wiktionary.org###main_page_mp-mp > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:style(background-color: black!important)
@@ -47,7 +44,7 @@ m.wiktionary.org##.overlay.search-overlay:style(background: black none!important
 m.wiktionary.org##.overlay.search-overlay.visible:style(animation: none!important)
 m.wiktionary.org##.overlay.search-overlay .results:style(background-color: black!important)
 m.wiktionary.org##.page-summary h3:style(color: #fff4f2!important)
-m.wiktionary.org##a:style(color: #ffb499!important)
+m.wiktionary.org##a:style(color: #ffbeb3!important)
 
 ! liquipedia.net
 liquipedia.net###dota2_320x50_SATF
