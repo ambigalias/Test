@@ -27,12 +27,10 @@ liquipedia.net##^head > script:nth-of-type(n + 4)
 ! 9gag.com
 ||notif.9gag.com^$1p
 ||recommend.9gag.com^$1p
-||9gag.com/sw.js$script,1p
 ^recommend.js^$script,domain=9gag.com
 9gag.com##^body > script:not(:last-of-type)
 
 ! tiki.vn
-||tiki.vn^$script,1p
 ||trackity.tiki.vn^$1p
 ||tka.tiki.vn^$1p
 ||tiki.vn/third-party-cors-proxy^$xhr,1p
@@ -45,7 +43,6 @@ tiki.vn##^head > script
 tiki.vn##+js(aopr, trackity)
 
 ! shopee.vn
-||shopee.vn/sw.js$script,1p
 ||shopee.vn/api/v4/abtest^$xhr,1p
 ||shopee.vn/__t__$xhr,1p
 shopee.vn##^head > script:nth-of-type(n + 3):nth-of-type(-n + 14)

@@ -25,12 +25,11 @@ gamevn.com##.node .nodeText:style(background-color: black!important; border-left
 gamevn.com##.discussionListItem:style(background-color: black!important)
 gamevn.com##.discussionListItem .posterAvatar:style(background: black!important; border-right: none!important)
 gamevn.com##.discussionListItem .stats:style(background: black!important; border-left: none!important; border-right: none!important)
-gamevn.com##.bbCodeQuote .quoteContainer .quoteExpand:style(background: black!important; position: static!important; height: auto!important; padding-top: 0!important; color: #fc9583!important; font-size: 12px!important)
+gamevn.com##.bbCodeQuote .quoteContainer .quoteExpand:style(background: black!important; position: static!important; height: auto!important; padding-top: 0!important; color: #ffb499!important; font-size: 12px!important)
 gamevn.com###header:style(background-color: black!important)
 gamevn.com##.attachedFiles .attachedFilesHeader:style(color: #fff4f2!important; background: black!important)
 gamevn.com##.attachedFiles .attachmentList:style(background: black!important)
 gamevn.com##.attachment .boxModelFixer:style(background-color: black!important)
-gamevn.com##.sectionMain a:style(text-decoration: none!important)
 
 ! m.wiktionary.org
 m.wiktionary.org###main_page_mp-mp > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:style(background-color: black!important)
