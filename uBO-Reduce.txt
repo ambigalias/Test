@@ -1,34 +1,18 @@
 ! Title: Reduce script and traffic
 
-! rarbgway.org
-/expla9[0-9]\.js$/$script,domain=rarbgway.org
-||rarbgway.org^$script,1p
-||rarbgway.org/ajax_news_v2.php$xhr,1p
-^comments2.min.js^$script,domain=rarbgway.org
-^scrollspy.min.js^$script,domain=rarbgway.org
-^showads.js^$script,domain=rarbgway.org
-
-! sxyprn.com
-sxyprn.com##^head > script:nth-of-type(n + 2)
-sxyprn.com##^body > script:not([src^="/js/"])
-sxyprn.com##^#wrapper_div script:not(.donate_modal.modal_window + script)
-sxyprn.com##^[class$="bd"]
-
 ! gamevn.com
 ||gamevn.com/js/gvn/mudim.js$script,1p
+||gamevn.com/styles/default/xenforo/gradients^$image,1p
 /\.gif$/$image,domain=gamevn.com
-gamevn.com##^head > script:nth-of-type(-n + 2)
+gamevn.com##^head > script:nth-of-type(2)
 
 ! liquipedia.net
-liquipedia.net##^body > script:nth-of-type(n + 2)
-liquipedia.net##^head > script:nth-of-type(n + 4)
 ||notifications.liquipedia.net^$1p
 
 ! 9gag.com
 ||notif.9gag.com^$1p
 ||recommend.9gag.com^$1p
 ^recommend.js^$script,domain=9gag.com
-9gag.com##^body > script:not(:last-of-type)
 
 ! tiki.vn
 ||trackity.tiki.vn^$1p
@@ -37,12 +21,7 @@ liquipedia.net##^head > script:nth-of-type(n + 4)
 ||tiki.vn/api/spectrum/v4/enrolls$xhr,1p
 ||tiki.vn^$removeparam=trackity_id
 ||tiki.vn^$removeparam=/itm_/
-tiki.vn##^#__next > script
-tiki.vn##^body > script:last-of-type
-tiki.vn##^head > script
-tiki.vn##+js(aopr, trackity)
 
 ! shopee.vn
 ||shopee.vn/api/v4/abtest^$xhr,1p
 ||shopee.vn/__t__$xhr,1p
-shopee.vn##^head > script:nth-of-type(n + 3):nth-of-type(-n + 14)
