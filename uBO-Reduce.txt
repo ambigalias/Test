@@ -1,5 +1,12 @@
 ! Title: Reduce script and traffic
 
+! sxyprn.com
+sxyprn.com##^head > script:nth-of-type(n + 2)
+sxyprn.com##^#wrapper_div > script:not([src^="/player/"])
+sxyprn.com##^.fbd
+sxyprn.com##^.tbd
+sxyprn.com##^#content_div > .main_content > .cbd
+
 ! gamevn.com
 ||gamevn.com/js/gvn/mudim.js$script,1p
 ||gamevn.com/styles/default/xenforo/gradients^$image,1p
