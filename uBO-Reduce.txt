@@ -1,4 +1,5 @@
 ! Title: Reduce script and traffic
+! Homepage: https://github.com/ambigalias/Test
 
 ! sxyprn.com
 sxyprn.com##^head > script:nth-of-type(n + 4)
@@ -17,6 +18,8 @@ gamevn.com##^head > script:nth-of-type(2)
 
 ! liquipedia.net
 ||notifications.liquipedia.net^$1p
+liquipedia.net##^head > link[rel="canonical"] ~ script:not([src="js/main.js"])
+liquipedia.net##^body > script:nth-of-type(n + 2)
 
 ! 9gag.com
 ||notif.9gag.com^$1p
