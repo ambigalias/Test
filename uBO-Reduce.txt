@@ -22,6 +22,11 @@ liquipedia.net##^head > link[rel="canonical"] ~ script:not([src="js/main.js"])
 liquipedia.net##^body > script:nth-of-type(n + 2)
 
 ! ghacks.net
+^wp-embed.min.js^$domain=ghacks.net
+^revamp-infinite-leaderboard.js^$domain=ghacks.net
+^notix-public.js^$domain=ghacks.net
+^email-decode.min.js^$domain=ghacks.net
+^swiper.min.js^$domain=ghacks.net
 ghacks.net##^head > script:nth-of-type(n + 6)
 ghacks.net##^body > script
 
