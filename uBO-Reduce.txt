@@ -1,4 +1,4 @@
-! Title: Reduce script and traffic
+! Title: Reduce unnecessary stuff
 ! Homepage: https://github.com/ambigalias/Test
 
 ! sxyprn.com
@@ -21,10 +21,16 @@ gamevn.com##^head > script:nth-of-type(2)
 liquipedia.net##^head > link[rel="canonical"] ~ script:not([src="js/main.js"])
 liquipedia.net##^body > script:nth-of-type(n + 2)
 
+! ghacks.net
+ghacks.net##^head > script:nth-of-type(n + 6)
+ghacks.net##^body > script
+
 ! 9gag.com
 ||notif.9gag.com^$1p
 ||recommend.9gag.com^$1p
 ^recommend.js^$script,domain=9gag.com
+9gag.com##^head > script:has-text(/(_paq)|(_qevents)|(gtag)/)
+9gag.com##^body > script:first-of-type
 
 ! tiki.vn
 ||trackity.tiki.vn^$1p
