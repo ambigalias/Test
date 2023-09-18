@@ -10,6 +10,11 @@ sxyprn.com##^.post_el_wrap + div
 sxyprn.com##^.main_footer ~ script
 sxyprn.com##^#content_div ~ script
 
+! spankbang.com
+spankbang.party##^head > script:first-of-type
+^universal.master.6.1.packed.sync.44b4ae0d.js^$domain=spankbang.party
+^universal.master.6.1.packed.player.vast.v3.8472c1a7.js^$domain=spankbang.party
+
 ! gamevn.com
 ||gamevn.com/js/gvn/mudim.js$script,1p
 ||gamevn.com/styles/default/xenforo/gradients^$image,1p
