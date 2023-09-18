@@ -42,14 +42,12 @@ ghacks.net##^body > script
 9gag.com##^head > script:has-text(/(_paq)|(_qevents)|(gtag)/)
 9gag.com##^body > script:first-of-type
 
-! tiki.vn
-||trackity.tiki.vn^$1p
-||tka.tiki.vn^$1p
-||tiki.vn/third-party-cors-proxy^$xhr,1p
-||tiki.vn/api/spectrum/v4/enrolls$xhr,1p
-||tiki.vn^$removeparam=trackity_id
-||tiki.vn^$removeparam=/itm_/
-
-! shopee.vn
-||shopee.vn/api/v4/abtest^$xhr,1p
-||shopee.vn/__t__$xhr,1p
+!#if !env_mobile
+! go-vietnam.vn
+go-vietnam.vn##^head > script
+go-vietnam.vn##^body > script:nth-of-type(-n + 5)
+go-vietnam.vn##.col-12.col-md-8:remove-class(col-md-8)
+go-vietnam.vn###pdf-column div:remove-attr(style)
+go-vietnam.vn##^.col-12.col-md-4.mt-3.mt-sm-0
+go-vietnam.vn##+js(aopr, Math.max)
+!#endif
