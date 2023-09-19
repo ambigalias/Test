@@ -42,12 +42,17 @@ ghacks.net##^body > script
 9gag.com##^head > script:has-text(/(_paq)|(_qevents)|(gtag)/)
 9gag.com##^body > script:first-of-type
 
-!#if !env_mobile
 ! go-vietnam.vn
-go-vietnam.vn##^head > script
+go-vietnam.vn##^head > script:nth-of-type(n + 2)
 go-vietnam.vn##^body > script:nth-of-type(-n + 5)
 go-vietnam.vn##.col-12.col-md-8:remove-class(col-md-8)
 go-vietnam.vn###pdf-column div:remove-attr(style)
 go-vietnam.vn##^.col-12.col-md-4.mt-3.mt-sm-0
 go-vietnam.vn##+js(aopr, Math.max)
-!#endif
+
+! tiki.vn
+||api.tiki.vn/spectrum/v4/enrolls$xhr,1p
+||tiki.vn/~partytown/proxytown$xhr,1p
+tiki.vn##^head > script
+tiki.vn##^body > #__next > script
+tiki.vn##+js(aopr, trackity)
