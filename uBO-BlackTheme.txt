@@ -30,4 +30,4 @@ gamevn.com##.messageText:style(font-size: 14px !important; line-height: 1.5 !imp
 gamevn.com##.avatar img:style(background-color: #1a1a1b !important; border: none !important;)
 gamevn.com##.attachment .boxModelFixer:style(background-color: #1a1a1b !important;)
 gamevn.com##.attachedFiles .attachmentList:style(background: #1a1a1b none !important;)
-gamevn.com##.attachedFiles .attachedFilesHeader:style(background: #1a1a1b none !important;)
+gamevn.com##h6.filename a:style(color: #e9ebfc !important;)
