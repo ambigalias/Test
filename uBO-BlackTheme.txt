@@ -7,7 +7,7 @@ gamevn.com##html:style(background-color: #1a1a1b !important; color: #e9ebfc !imp
 gamevn.com###header:style(background-color: #1a1a1b !important;)
 gamevn.com##body:style(color: #e9ebfc !important;)
 gamevn.com##.messageList .message:style(background-color: #1a1a1b !important; box-shadow: none !important;)
-gamevn.com##.message .likesSummary:style(background-color: #1a1a1b !important;)
+gamevn.com##.message .likesSummary:style(background-color: #0f0f0f !important; border: 1px solid #2f2f2f !important;)
 gamevn.com##.bbCodeQuote blockquote:style(background-color: #1a1a1b !important;)
 gamevn.com##.discussionListItem:style(background-color: #1a1a1b !important;)
 gamevn.com##.discussionListItem .posterAvatar:style(background: #1a1a1b none !important; border-right: none !important;)
@@ -31,3 +31,4 @@ gamevn.com##.avatar img:style(background-color: #1a1a1b !important; border: none
 gamevn.com##.attachment .boxModelFixer:style(background-color: #1a1a1b !important;)
 gamevn.com##.attachedFiles .attachmentList:style(background: #1a1a1b none !important;)
 gamevn.com##h6.filename a:style(color: #e9ebfc !important;)
+gamevn.com##.forum_view .sectionMain:style(border: none !important;)
